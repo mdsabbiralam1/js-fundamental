@@ -23,3 +23,13 @@ console.log(foodNameCount);
 
 console.log(vowles.length);
 
+
+
+// recap array 
+var studentName = ['mim', 'sadia', 'pinki', 'jannat'];
+var rollNumber = [34, 54, 64, 64];
+
+console.log(rollNumber);
+
+// length
+console.log(rollNumber.length);
