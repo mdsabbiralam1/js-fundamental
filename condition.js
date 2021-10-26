@@ -20,4 +20,12 @@ if (iphonePrice > myBudget) {
                console.log("xioami is the best phone");
 }
 
+var cickenPrice = 150;
+var myMoney = 168;
 
+if (cickenPrice < myMoney) {
+               console.log('ran khamu ar haddi chabamo');
+}
+else{
+               console.log('dal ar alo vorta khamo');
+}
