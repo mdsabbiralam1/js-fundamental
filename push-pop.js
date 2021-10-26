@@ -5,8 +5,12 @@ lastBencher.push('borkot');
 
 var roolNumber = [34, 54, 534, 555, 34];
 roolNumber.push(55);
-// console.log(roolNumber);
+
+var firstChild = [23, 43, 55];
+firstChild.unshift(15);
 // console.log(lastBencher);
+// console.log(roolNumber);
+console.log(firstChild);
 
 // Remove an element from an array
 var firstBencher = ['rakib', 'sakib', 'mamun', 'liton'];
@@ -16,7 +20,7 @@ mousePrice.pop();
 // console.log(mousePrice);
 // console.log(firstBencher);
 
-// remove first element from arry 
+// remove firs t element from arry 
 var friendAges = [23, 43, 20, 53, 56];
 friendAges.shift();
 console.log(friendAges);
