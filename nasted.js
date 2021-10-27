@@ -1,9 +1,10 @@
 var danisPrice = 50;
 var butterBreadPrice = 25;
 var toastBiscutPrice = 10;
-var myBudget = 25;
-
-//nasted  condition
+var myBudget = 26;
+var packeWell = false;
+//nasted conditon
+/*
 if (danisPrice < myBudget) {
                console.log('danish kheye danish desh e jabo');
 }
@@ -15,4 +16,15 @@ else if (toastBiscutPrice < myBudget) {
 }
 else{
                console.log('batasha diye cha khamo..!!!')
+}
+*/
+
+// nasting condition
+if (butterBreadPrice < myBudget) {
+               if(packeWell == true) {
+                              console.log('butter Bread Khabo');
+               }
+               else{
+                              console.log('butter breat khabo na. kenona amar agei machi ordekh kheye felse..!');
+               }
 }
