@@ -18,3 +18,17 @@ tourDastination.push('London');
 
 tourDastination.pop();
 console.log(tourDastination);
+
+// nasted condition
+if (tourDastination[2] == 'nepal'){
+               console.log('nepal jamu pahar dekhmo');
+}
+else if (tourDastination[2] == 'Butan'){
+               console.log('Butan jamu r musty krmo');
+}
+else if (tourDastination == 'London') {
+               console.log('Londone jeye shylethi meye biye kormo');
+}
+else {
+               console.log('ghore bose bose machi marmo');
+}
