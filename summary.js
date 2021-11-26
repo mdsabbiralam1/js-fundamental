@@ -32,3 +32,26 @@ else if (tourDastination == 'London') {
 else {
                console.log('ghore bose bose machi marmo');
 }
+
+var eggPrice = 32;
+var myBudget = 31;
+
+if (eggPrice <= myBudget) {
+               console.log('aj dim khamu 4 ta');
+}
+else if (eggPrice >= myBudget) {
+               console.log('lebu diye dal vat khabo');
+}
+
+
+// reacap
+
+// for loop:
+for (i = 51; i < 80; i = i+2){
+               console.log(i);
+}
+
+// var myArray = [];
+// for (var i = 1; i < 10; i += 2){
+//     myArray.push(i);
+// }
